@@ -16,7 +16,7 @@ class contaBancaria {
     sacar(valor) {
         if (valor > this._saldo) {
             console.log('Saldo insuficiente');
-        } this._saldo = this._saldosaldo - valor;
+        } this._saldo = this._saldo - valor;
 
         return this._saldo;
     }
